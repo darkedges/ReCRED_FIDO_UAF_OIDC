@@ -28,6 +28,8 @@ import eu.recred.fidouaf.storage.DuplicateKeyException;
 import eu.recred.fidouaf.storage.RegistrationRecord;
 import eu.recred.fidouaf.storage.SystemErrorException;
 import org.apache.commons.codec.binary.Base64;
+import org.springframework.stereotype.Component;
+
 import eu.recred.fido.uaf.msg.*;
 
 import javax.ws.rs.*;
@@ -38,6 +40,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
+@Component
 @Path("/v1")
 public class FidoUafResource {
 
