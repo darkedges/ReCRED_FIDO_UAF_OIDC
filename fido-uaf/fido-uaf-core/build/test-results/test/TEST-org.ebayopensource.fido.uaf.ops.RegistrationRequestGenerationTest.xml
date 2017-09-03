@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ebayopensource.fido.uaf.ops.RegistrationRequestGenerationTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-09-03T01:16:49" hostname="NIrving-PC" time="0.008">
+  <properties/>
+  <testcase name="basic" classname="org.ebayopensource.fido.uaf.ops.RegistrationRequestGenerationTest" time="0.004"/>
+  <testcase name="notNull" classname="org.ebayopensource.fido.uaf.ops.RegistrationRequestGenerationTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.ops.RegistrationRequestGenerationTest basic
+INFO: {"header":{"upv":{"major":1,"minor":0},"op":"Reg","appID":"https://uaf.ebay.com/uaf/facets","serverData":"dGVzdF9zaWduYXR1cmUuTVRVd05EUXdNVFF3T1RneE9BLlZYTmxjbTVoYldVLlNrUkthRXBFUlhkS1JGcDRZa2hDTTFwNmFHeGlSRnBHVVROU01GRXlOREJqVjFKRlVrVTQ"},"challenge":"JDJhJDEwJDZxbHB3ZzhlbDZFQ3R0Q240cWRERE8","username":"Username"}
+Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.ops.RegistrationRequestGenerationTest notNull
+INFO: {"header":{"upv":{"major":1,"minor":0},"op":"Reg","appID":"https://uaf.ebay.com/uaf/facets","serverData":"dGVzdF9zaWduYXR1cmUuTVRVd05EUXdNVFF3T1RneU1RLlZYTmxjbTVoYldVLlNrUkthRXBFUlhkS1IzZDFWVzVzYUZORWJIbGpNbkIyWlVad00wMVVSbmhXUnpWMlQxaFY"},"challenge":"JDJhJDEwJGwuUnlhSDlyc2pveFp3MTFxVG5vOXU","username":"Username"}
+]]></system-err>
+</testsuite>

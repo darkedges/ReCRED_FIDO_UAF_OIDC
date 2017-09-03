@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ebayopensource.fido.uaf.msg.RegistrationRequestTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-09-03T01:16:49" hostname="NIrving-PC" time="0.007">
+  <properties/>
+  <testcase name="test" classname="org.ebayopensource.fido.uaf.msg.RegistrationRequestTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.msg.RegistrationRequestTest test
+INFO: {"header":{"upv":{"major":1,"minor":0},"op":"Reg","appID":"https://uaf-test-1.noknoktest.com:8443/SampleApp/uaf/facets","serverData":"IjycjPZYiWMaQ1tKLrJROiXQHmYG0tSSYGjP5mgjsDaM17RQgq0dl3NNDDTx9d-aSR_6hGgclrU2F2Yj-12S67v5VmQHj4eWVseLulHdpk2v_hHtKSvv_DFqL4n2IiUY6XZWVbOnvg"},"challenge":"H9iW9yA9aAXF_lelQoi_DhUk514Ad8Tqv0zCnCqKDpo","username":"apa","policy":{"accepted":[[{}],[{}],[{}],[{}],[{}],[{}],[{},{},{},{}]]}}
+]]></system-err>
+</testsuite>

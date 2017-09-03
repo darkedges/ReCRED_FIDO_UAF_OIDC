@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ebayopensource.fido.uaf.crypto.SHATest" tests="4" skipped="0" failures="0" errors="0" timestamp="2017-09-03T01:16:49" hostname="NIrving-PC" time="0.002">
+  <properties/>
+  <testcase name="deterministic" classname="org.ebayopensource.fido.uaf.crypto.SHATest" time="0.0"/>
+  <testcase name="basic" classname="org.ebayopensource.fido.uaf.crypto.SHATest" time="0.0"/>
+  <testcase name="uniqeResult" classname="org.ebayopensource.fido.uaf.crypto.SHATest" time="0.0"/>
+  <testcase name="nullInput" classname="org.ebayopensource.fido.uaf.crypto.SHATest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ebayopensource.fido.uaf.msg.FinalChallengeParamsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-09-03T01:16:49" hostname="NIrving-PC" time="0.007">
+  <properties/>
+  <testcase name="test" classname="org.ebayopensource.fido.uaf.msg.FinalChallengeParamsTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.msg.FinalChallengeParamsTest test
+INFO: {"appID":"https://uaf-test-1.noknoktest.com:8443/SampleApp/uaf/facets","challenge":"H9iW9yA9aAXF_lelQoi_DhUk514Ad8Tqv0zCnCqKDpo","channelBinding":{},"facetID":"com.noknok.android.sampleapp"}
+Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.msg.FinalChallengeParamsTest test
+INFO: {"appID":"https://uaf-test-1.noknoktest.com:8443/SampleApp/uaf/facets","challenge":"H9iW9yA9aAXF_lelQoi_DhUk514Ad8Tqv0zCnCqKDpo","facetID":"com.noknok.android.sampleapp","channelBinding":{}}
+]]></system-err>
+</testsuite>

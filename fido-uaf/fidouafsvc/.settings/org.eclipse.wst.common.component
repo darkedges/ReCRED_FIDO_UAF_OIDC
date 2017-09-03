@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="fidouafsvc-ci">
+    <wb-module deploy-name="fidouaf_spring_${buildNumber}">
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
-        <property name="context-root" value="fidouafsvc"/>
+        <dependent-module archiveName="fido-uaf-core-msg-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/fido-uaf-core-msg/fido-uaf-core-msg">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="fido-uaf-core-crypto-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/fido-uaf-core-crypto/fido-uaf-core-crypto">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="fido-uaf-core-tlv-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/fido-uaf-core-tlv/fido-uaf-core-tlv">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <property name="java-output-path" value="/fidouafsvc/target/classes"/>
+        <property name="context-root" value="fidouaf_spring_${buildNumber}"/>
     </wb-module>
 </project-modules>

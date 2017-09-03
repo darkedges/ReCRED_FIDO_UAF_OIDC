@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ebayopensource.fido.uaf.ops.AuthenticationResponseProcessingTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-09-03T01:16:49" hostname="NIrving-PC" time="0.009">
+  <properties/>
+  <testcase name="basic" classname="org.ebayopensource.fido.uaf.ops.AuthenticationResponseProcessingTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.ops.AuthenticationResponseProcessing getAlgAndEncoding
+INFO:  : SignatureAlgAndEncoding : UAF_ALG_SIGN_SECP256R1_ECDSA_SHA256_DER
+Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.ops.AuthenticationResponseProcessing verifySignature
+INFO:  : pub 		   : MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEAN6POEisT65JDZ_oHBXreI59W3BpISIrmYu9MzDD8ec9BCEgEOolypVx291mPg_Hv61AWKjCA6w_DaLCNKKC3g
+Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.ops.AuthenticationResponseProcessing verifySignature
+INFO:  : dataForSigning : BD6OAAsuCQBEQUI4IzgwMTEOLgUAAQABAgAPLiAANO28PthtHdK05PUvBPTixv5XoSimZqRcEr7c_hbVhtsKLiAAKxRBzEz24Zb7hTSWDg-Hk7jYqtZBe4yZcpHMs2uFaKYQLgAACS4gAChL8ay6TAypXnV_98zeS-xQDxMT2A9DczufUpBRq5IUDS4EAAAAAAA
+Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.ops.AuthenticationResponseProcessing verifySignature
+INFO:  : signature 	   : MEQCIFlRGZQgi6prhYqz2nSh35h38wzKX7tCIoezz772i8VRAiB0aB9MooFL3YliE8tbuPo3Ii6DeKAFM73PQDcSi8m-mQ
+Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.crypto.KeyCodec getKeyAsRawBytes
+INFO: Raw key length:65
+]]></system-err>
+</testsuite>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ebayopensource.fido.uaf.crypto.BCryptTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-09-03T01:16:46" hostname="NIrving-PC" time="0.381">
+  <properties/>
+  <testcase name="basic" classname="org.ebayopensource.fido.uaf.crypto.BCryptTest" time="0.381"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

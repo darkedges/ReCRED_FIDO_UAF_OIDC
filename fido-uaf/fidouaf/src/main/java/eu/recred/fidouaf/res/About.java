@@ -34,25 +34,6 @@ public class About {
                 sb.append(entry.getKey() + ": " + entry.getValue() + "\n");
             }
             response = Response.status(200).entity(sb.toString()).build();
-//
-// ap.Entry entry: manifest0.getMainAttributes().entrySet()) {
-//                System.out.println(entry.getKey() + ": " + entry.getValue());
-//            }
-//            System.out.println("---------------------------------------------");
-
-//            Enumeration<URL> resources = getClass().getClassLoader().getResources("META-INF/MANIFEST.MF");
-//            while (resources.hasMoreElements()) {
-//                Manifest manifest = new Manifest(resources.nextElement().openStream());
-//                for (Map.Entry entry: manifest.getMainAttributes().entrySet()) {
-//                    System.out.println(entry.getKey() + ": " + entry.getValue());
-//                }
-//                System.out.println("---------------------------------------------");
-//
-//                response = Response.status(200).entity(manifest.getMainAttributes()).build();
-//                //break;
-//                //map.put("Implementation-Vendor", manifest.getMainAttributes().getValue("Implementation-Vendor"));
-//
-//            }
         }catch (IOException ex) {
             ex.printStackTrace();
         }

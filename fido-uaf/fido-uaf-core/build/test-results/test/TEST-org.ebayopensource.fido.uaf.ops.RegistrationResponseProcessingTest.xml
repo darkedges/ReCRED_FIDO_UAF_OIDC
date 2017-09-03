@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ebayopensource.fido.uaf.ops.RegistrationResponseProcessingTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-09-03T01:16:49" hostname="NIrving-PC" time="0.017">
+  <properties/>
+  <testcase name="serverDataValidation" classname="org.ebayopensource.fido.uaf.ops.RegistrationResponseProcessingTest" time="0.008"/>
+  <testcase name="test" classname="org.ebayopensource.fido.uaf.ops.RegistrationResponseProcessingTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.crypto.CertificateValidatorImpl validate
+INFO:  : Attestation Cert :   [0]         Version: 1
+         SerialNumber: 1
+             IssuerDN: C=US,ST=CA,L=PA,O=NNL\,Inc,OU=DAN1,CN=NNL\,Inc CA,E=nnl@gmail.com
+           Start Date: Fri Aug 29 07:35:40 AEST 2014
+           Final Date: Thu May 25 07:35:40 AEST 2017
+            SubjectDN: C=US,ST=CA,L=San Francisco,O=NNL\,Inc,OU=DAN1,CN=NNL\,Inc CA,E=nnl@gmail.com
+           Public Key: EC Public Key
+            X: 2181b770888e70e8c334a217af02d9a12b6179c352c597398c6a20f8a6d0e5a0
+            Y: f4515d51809ae8080a8e7d51f7d124d9df34dec18a44e8af9dabe67551fe4a71
+
+  Signature Algorithm: ECDSA
+            Signature: 3046022100cc042e8d79d24bd008021ea51b3eb2
+                       772a4b553b139c1cea189e32a48ab2fea5022100
+                       85b2e38419c455fa8e061cf06987f54cac6dcda5
+                       887618a3e3b008a6fdc48d99
+
+Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.crypto.CertificateValidatorImpl validate
+INFO:  : Cert Alg : ECDSA
+Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.crypto.KeyCodec getKeyAsRawBytes
+INFO: Raw key length:65
+Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.ops.RegistrationResponseProcessing processAssertions
+INFO: FC: 9tBzZC64ecgVQBGSQb5QtEIPC8-Vav4HsHLZDflLaug
+Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.ops.RegistrationResponseProcessingTest serverDataValidation
+INFO: AAID=ABCD#ABCD
+Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.crypto.CertificateValidatorImpl validate
+INFO:  : Attestation Cert :   [0]         Version: 1
+         SerialNumber: 1
+             IssuerDN: C=US,ST=CA,L=San Jose,O=Synaptics\, Inc.,OU=BPD,CN=Smbat Tonoyan CA,E=smbat.tonoyan@synaptics.com
+           Start Date: Wed Sep 17 05:27:26 AEST 2014
+           Final Date: Tue Sep 17 05:27:26 AEST 2019
+            SubjectDN: C=US,ST=CA,L=San Jose,O=Synaptics\, Inc.,OU=BPD,CN=Smbat Tonoyan CA,E=smbat.tonoyan@synaptics.com
+           Public Key: EC Public Key
+            X: f7f30a5f076d7e46ec151da4bed9d29677ac049745e5a70fb9406cc0a7274210
+            Y: 70efec1b5ff4b1d0a697d33ab4a5e277642dab117e6a1300dcfb9c418cdd1cd
+
+  Signature Algorithm: ECDSA
+            Signature: 3046022100ea53c0f1865c047b881fc890d54f25
+                       8d75b6f33ae96e3079378f7d431d8b3242022100
+                       d92e215b24f5071a883f9947e443a069941088fd
+                       ed35180928924c05e0002b96
+
+Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.crypto.CertificateValidatorImpl validate
+INFO:  : Cert Alg : ECDSA
+Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.crypto.KeyCodec getKeyAsRawBytes
+INFO: Raw key length:65
+Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.ops.RegistrationResponseProcessing processAssertions
+INFO: FC: 8y7kunvd44-a9X2uorVkBXY9O2cBjq9eoMJ_dMHp9N8
+Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.ops.RegistrationResponseProcessingTest test
+INFO: AAID=138A#4202
+]]></system-err>
+</testsuite>

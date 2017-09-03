@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.ebayopensource.fido.uaf.ops.RegistrationResponseProcessingTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.ebayopensource.fido.uaf.ops.RegistrationResponseProcessingTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.ebayopensource.fido.uaf.ops.html">org.ebayopensource.fido.uaf.ops</a> &gt; RegistrationResponseProcessingTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.016s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">serverDataValidation</td>
+<td>0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test</td>
+<td>0.008s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.crypto.CertificateValidatorImpl validate
+INFO:  : Attestation Cert :   [0]         Version: 1
+         SerialNumber: 1
+             IssuerDN: C=US,ST=CA,L=PA,O=NNL\,Inc,OU=DAN1,CN=NNL\,Inc CA,E=nnl@gmail.com
+           Start Date: Fri Aug 29 07:35:40 AEST 2014
+           Final Date: Thu May 25 07:35:40 AEST 2017
+            SubjectDN: C=US,ST=CA,L=San Francisco,O=NNL\,Inc,OU=DAN1,CN=NNL\,Inc CA,E=nnl@gmail.com
+           Public Key: EC Public Key
+            X: 2181b770888e70e8c334a217af02d9a12b6179c352c597398c6a20f8a6d0e5a0
+            Y: f4515d51809ae8080a8e7d51f7d124d9df34dec18a44e8af9dabe67551fe4a71
+
+  Signature Algorithm: ECDSA
+            Signature: 3046022100cc042e8d79d24bd008021ea51b3eb2
+                       772a4b553b139c1cea189e32a48ab2fea5022100
+                       85b2e38419c455fa8e061cf06987f54cac6dcda5
+                       887618a3e3b008a6fdc48d99
+
+Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.crypto.CertificateValidatorImpl validate
+INFO:  : Cert Alg : ECDSA
+Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.crypto.KeyCodec getKeyAsRawBytes
+INFO: Raw key length:65
+Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.ops.RegistrationResponseProcessing processAssertions
+INFO: FC: 9tBzZC64ecgVQBGSQb5QtEIPC8-Vav4HsHLZDflLaug
+Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.ops.RegistrationResponseProcessingTest serverDataValidation
+INFO: AAID=ABCD#ABCD
+Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.crypto.CertificateValidatorImpl validate
+INFO:  : Attestation Cert :   [0]         Version: 1
+         SerialNumber: 1
+             IssuerDN: C=US,ST=CA,L=San Jose,O=Synaptics\, Inc.,OU=BPD,CN=Smbat Tonoyan CA,E=smbat.tonoyan@synaptics.com
+           Start Date: Wed Sep 17 05:27:26 AEST 2014
+           Final Date: Tue Sep 17 05:27:26 AEST 2019
+            SubjectDN: C=US,ST=CA,L=San Jose,O=Synaptics\, Inc.,OU=BPD,CN=Smbat Tonoyan CA,E=smbat.tonoyan@synaptics.com
+           Public Key: EC Public Key
+            X: f7f30a5f076d7e46ec151da4bed9d29677ac049745e5a70fb9406cc0a7274210
+            Y: 70efec1b5ff4b1d0a697d33ab4a5e277642dab117e6a1300dcfb9c418cdd1cd
+
+  Signature Algorithm: ECDSA
+            Signature: 3046022100ea53c0f1865c047b881fc890d54f25
+                       8d75b6f33ae96e3079378f7d431d8b3242022100
+                       d92e215b24f5071a883f9947e443a069941088fd
+                       ed35180928924c05e0002b96
+
+Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.crypto.CertificateValidatorImpl validate
+INFO:  : Cert Alg : ECDSA
+Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.crypto.KeyCodec getKeyAsRawBytes
+INFO: Raw key length:65
+Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.ops.RegistrationResponseProcessing processAssertions
+INFO: FC: 8y7kunvd44-a9X2uorVkBXY9O2cBjq9eoMJ_dMHp9N8
+Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.ops.RegistrationResponseProcessingTest test
+INFO: AAID=138A#4202
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 3.4.1</a> at 03/09/2017 11:16:50 AM</p>
+</div>
+</div>
+</body>
+</html>

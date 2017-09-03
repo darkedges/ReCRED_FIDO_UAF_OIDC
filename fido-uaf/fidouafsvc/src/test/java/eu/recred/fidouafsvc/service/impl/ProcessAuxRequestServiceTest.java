@@ -1,24 +1,30 @@
 package eu.recred.fidouafsvc.service.impl;
 
-import com.google.gson.Gson;
-import eu.recred.fidouafsvc.storage.StorageInterface;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
 
-import static org.junit.Assert.*;
+import com.google.gson.Gson;
+
+import eu.recred.fidouafsvc.Application;
+import eu.recred.fidouafsvc.storage.StorageInterface;
 
 //@Ignore
-@RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = {"/fidouafsvc-servlet.xml"})
+@RunWith(SpringRunner.class)
+@SpringBootTest(classes = Application.class)
 public class ProcessAuxRequestServiceTest {
 
 	Gson gson = new Gson();
 
-	@Autowired @Qualifier("storageDao")
+	@Autowired
+	@Qualifier("storageDao")
 	StorageInterface storageDao;
 
 	@Autowired
@@ -39,12 +45,12 @@ public class ProcessAuxRequestServiceTest {
 		assertTrue(responseObj.authenticated);
 		assertEquals(testUsername, responseObj.username);
 	}
-	
+
 	@Test
 	public void badTestAuthenticationidResponse() {
 		String response = processAuxRequests.getAuthenticated("noidhere");
 		Response responseObj = gson.fromJson(response, Response.class);
-		
+
 		assertFalse(responseObj.authenticated);
 	}
 

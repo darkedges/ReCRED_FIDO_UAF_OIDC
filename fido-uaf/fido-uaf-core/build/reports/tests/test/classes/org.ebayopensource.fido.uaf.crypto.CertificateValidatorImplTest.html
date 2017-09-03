@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.ebayopensource.fido.uaf.crypto.CertificateValidatorImplTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.ebayopensource.fido.uaf.crypto.CertificateValidatorImplTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.ebayopensource.fido.uaf.crypto.html">org.ebayopensource.fido.uaf.crypto</a> &gt; CertificateValidatorImplTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">5</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.333s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">basic</td>
+<td>0.017s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">d</td>
+<td>0.201s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">rsaValidateFalse</td>
+<td>0.029s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">s2ValidateTrue</td>
+<td>0.019s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">sValidateTrue</td>
+<td>0.067s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Sep 03, 2017 11:16:47 AM org.ebayopensource.fido.uaf.crypto.CertificateValidatorImpl validate
+INFO:  : Attestation Cert :   [0]         Version: 1
+         SerialNumber: 16392499691518444022
+             IssuerDN: C=JP,ST=Aichi,L=Nagoya,O=DDS\,inc,OU=Research&amp;Development Div,CN=DDS\,inc CA
+           Start Date: Thu Aug 20 18:43:43 AEST 2015
+           Final Date: Sun Aug 17 18:43:43 AEST 2025
+            SubjectDN: C=JP,ST=Aichi,L=Nagoya,O=DDS\,inc,OU=Research&amp;Development Div,CN=MAGATAMA Authenticator v1.0
+           Public Key: EC Public Key
+            X: d1962c6115880b23955403104055796296a89d529b38e3b87bcc69c522381415
+            Y: 4e1fe80d77eea27e523b104362c57bc1f959f94ec56b3926ad6b6592b49b035b
+
+  Signature Algorithm: SHA256WITHECDSA
+            Signature: 3044022003d2d4229812151fedba461e76ff52d7
+                       ed268010d010c92172340883cc98192b022036e3
+                       d57357768cf6b97da7df9a0cc96920f13db7de94
+                       dfa3878b4488b6bbd0c8
+
+Sep 03, 2017 11:16:47 AM org.ebayopensource.fido.uaf.crypto.CertificateValidatorImpl validate
+INFO:  : Cert Alg : SHA256WITHECDSA
+Sep 03, 2017 11:16:47 AM org.ebayopensource.fido.uaf.crypto.KeyCodec getKeyAsRawBytes
+INFO: Raw key length:65
+Sep 03, 2017 11:16:47 AM org.ebayopensource.fido.uaf.crypto.CertificateValidatorImpl validate
+INFO:  : Attestation Cert :   [0]         Version: 1
+         SerialNumber: 1
+             IssuerDN: C=US,ST=CA,L=PA,O=NNL\,Inc,OU=DAN1,CN=NNL\,Inc CA,E=nnl@gmail.com
+           Start Date: Fri Aug 29 07:35:40 AEST 2014
+           Final Date: Thu May 25 07:35:40 AEST 2017
+            SubjectDN: C=US,ST=CA,L=San Francisco,O=NNL\,Inc,OU=DAN1,CN=NNL\,Inc CA,E=nnl@gmail.com
+           Public Key: EC Public Key
+            X: 2181b770888e70e8c334a217af02d9a12b6179c352c597398c6a20f8a6d0e5a0
+            Y: f4515d51809ae8080a8e7d51f7d124d9df34dec18a44e8af9dabe67551fe4a71
+
+  Signature Algorithm: ECDSA
+            Signature: 3046022100cc042e8d79d24bd008021ea51b3eb2
+                       772a4b553b139c1cea189e32a48ab2fea5022100
+                       85b2e38419c455fa8e061cf06987f54cac6dcda5
+                       887618a3e3b008a6fdc48d99
+
+Sep 03, 2017 11:16:47 AM org.ebayopensource.fido.uaf.crypto.CertificateValidatorImpl validate
+INFO:  : Cert Alg : ECDSA
+Sep 03, 2017 11:16:47 AM org.ebayopensource.fido.uaf.crypto.KeyCodec getKeyAsRawBytes
+INFO: Raw key length:65
+Sep 03, 2017 11:16:47 AM org.ebayopensource.fido.uaf.crypto.CertificateValidatorImpl validate
+INFO:  : Attestation Cert :   [0]         Version: 3
+         SerialNumber: 12848988557370298388
+             IssuerDN: C=KR,ST=Gyeonggi-Do,L=Yongin-City,O=Samsung DS,CN=Samsung DS
+           Start Date: Mon Sep 21 17:13:47 AEST 2015
+           Final Date: Fri Feb 06 18:13:47 AEDT 2043
+            SubjectDN: C=KR,ST=Gyeonggi-Do,L=Yongin-City,O=Samsung DS,CN=Samsung DS
+           Public Key: EC Public Key
+            X: f8696afe6be87fc4515ddd2d508331fb9ee45199852e821b8957c30d4a41da34
+            Y: e2d399cfa858c911de85127df5e472cb6acebf9c7a0bfcdc6e46409253283328
+
+  Signature Algorithm: SHA256WITHECDSA
+            Signature: 3046022100b7c7ffff6de31aed7b766ec6d7427d
+                       1441a04e19fe28d7e7493e769265759524022100
+                       8f9fcdb7d52c752edc710869609c3435b8a543c7
+                       324bf536d5b2d120b1469f35
+       Extensions: 
+                       critical(false) 2.5.29.14 value = DER Octet String[20] 
+
+                       critical(false) 2.5.29.35 value = Sequence
+    Tagged [0] IMPLICIT 
+        DER Octet String[20] 
+
+                       critical(false) BasicConstraints: isCa(true)
+
+Sep 03, 2017 11:16:47 AM org.ebayopensource.fido.uaf.crypto.CertificateValidatorImpl validate
+INFO:  : Cert Alg : SHA256WITHECDSA
+Sep 03, 2017 11:16:47 AM org.ebayopensource.fido.uaf.crypto.KeyCodec getKeyAsRawBytes
+INFO: Raw key length:65
+Sep 03, 2017 11:16:47 AM org.ebayopensource.fido.uaf.crypto.KeyCodec getKeyAsRawBytes
+INFO: Raw key length:65
+Sep 03, 2017 11:16:47 AM org.ebayopensource.fido.uaf.crypto.CertificateValidatorImpl validate
+INFO:  : Attestation Cert :   [0]         Version: 3
+         SerialNumber: 16583108690492613317
+             IssuerDN: C=KR,O=RaonSecure Co.\, Ltd.,OU=Quality Assurance,CN=RaonSecure Co.\, Ltd.
+           Start Date: Thu Apr 23 14:40:33 AEST 2015
+           Final Date: Sat Apr 15 14:40:33 AEST 2045
+            SubjectDN: C=KR,ST=Seoul,O=RaonSecure Co.\, Ltd.,OU=Newtech Team,CN=0012#0001,E=hkcho@raonsecure.com
+           Public Key: RSA Public Key
+            modulus: c5570971e68917e78ab47854374e83a2f474d0be9684a6241f32285c9ebf90d183d44461c1b73b8e0f91a1c5388f232e2fde17954cfff22ca2d9e3c7eaf7fc1874d31abd7ec121d9b8b0b06d080e25576011d7f45b6820ec8f86c63971b0f2803548d03b23c47f9aa5868bdad3ff193c474bd8b921709bed083d00959aff07dd1ec4786314825d647b3eb5974825bf2da77375e472f227c16a37a403ebf088680655f7548102e3ba8a205c195233fd7b5c0231e6d7ff71f68b3d7437fc07c2606a8dbad76e1c8fb4b4133035842e1b3f662fd71034e27a5452ea530d7f5fe121a45a6bb12ee955c07e231f4a8d9464230850deafb98caabb47e6028daa8351e5
+    public exponent: 10001
+
+  Signature Algorithm: SHA256WITHRSA
+            Signature: 36c1dde2eb51e7683c2d8a011082bbf98b5d86f3
+                       cf1069568491bdeeaaf45a5b841ce72a778574a9
+                       c591da3aa1080f1700c42c1d62aca95f1e989644
+                       3d2fe79cc0874d9eecc1ac4a8f6f67f81433f96a
+                       c9bdbeef9266df6f6c189761809af29d2dbe574e
+                       fe497e98d781edcda4024d283965cc687956ee59
+                       7c06cb41da8d9e5c4d5094d7717245266bb48ae8
+                       683b47f3900d3cbafe974da32db0ccab9ecbf6e6
+                       cf3ee0f74e74050d87e38b48664bdfe0d494e829
+                       40df2932318b964ec3ba63410a0947af98eff845
+                       31509835ab89f3f03881fb9d09acba507f10210c
+                       f66d4c7939c9fc6b3a20394aafcc4b2627eafd31
+                       4a588dd62042d412ff7cd3b448ca47b3
+       Extensions: 
+                       critical(true) BasicConstraints: isCa(true), pathLenConstraint = 1
+                       critical(false) 2.5.29.37 value = Sequence
+    ObjectIdentifier(1.3.6.1.5.5.7.3.2)
+
+
+Sep 03, 2017 11:16:47 AM org.ebayopensource.fido.uaf.crypto.CertificateValidatorImpl validate
+INFO:  : Cert Alg : SHA256WITHRSA
+Sep 03, 2017 11:16:47 AM org.ebayopensource.fido.uaf.crypto.CertificateValidatorImpl validate
+INFO:  : Not verified; Cert Alg : SHA256WITHRSA
+Sep 03, 2017 11:16:47 AM org.ebayopensource.fido.uaf.crypto.CertificateValidatorImpl validate
+INFO:  : Attestation Cert :   [0]         Version: 3
+         SerialNumber: 15642198779700442440
+             IssuerDN: C=KR,ST=Gyeonggi-Do,L=Yongin-City,O=Samsung DS,CN=Samsung DS
+           Start Date: Wed Sep 09 23:03:48 AEST 2015
+           Final Date: Mon Jan 26 00:03:48 AEDT 2043
+            SubjectDN: C=KR,ST=Gyeonggi-Do,L=Yongin-City,O=Samsung DS,CN=Samsung DS
+           Public Key: EC Public Key
+            X: 3375dae19fc6fff7cbb6795c6be377a5107aa354514740ac95258ab18188a879
+            Y: 938168a32ee87964d9c30c0fe56992d422897ab73909f50ba4846c01144e3bdc
+
+  Signature Algorithm: ECDSA
+            Signature: 304502210096691dd39960d5944acfcfbeb7b1e7
+                       afe2a2a6e6b16d97386848829ec6f164fd022074
+                       f84ddd4767e42521df63071e456a4f5bb8bb9e79
+                       696c2991a1a221305760f6
+       Extensions: 
+                       critical(false) 2.5.29.14 value = DER Octet String[20] 
+
+                       critical(false) 2.5.29.35 value = Sequence
+    Tagged [0] IMPLICIT 
+        DER Octet String[20] 
+
+                       critical(false) BasicConstraints: isCa(true)
+
+Sep 03, 2017 11:16:47 AM org.ebayopensource.fido.uaf.crypto.CertificateValidatorImpl validate
+INFO:  : Cert Alg : ECDSA
+Sep 03, 2017 11:16:47 AM org.ebayopensource.fido.uaf.crypto.KeyCodec getKeyAsRawBytes
+INFO: Raw key length:65
+Sep 03, 2017 11:16:47 AM org.ebayopensource.fido.uaf.crypto.KeyCodec getKeyAsRawBytes
+INFO: Raw key length:65
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 3.4.1</a> at 03/09/2017 11:16:50 AM</p>
+</div>
+</div>
+</body>
+</html>

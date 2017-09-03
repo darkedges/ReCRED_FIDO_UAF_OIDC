@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ebayopensource.fido.uaf.crypto.NamedCurveTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2017-09-03T01:16:49" hostname="NIrving-PC" time="0.098">
+  <properties/>
+  <testcase name="testRawPubKey" classname="org.ebayopensource.fido.uaf.crypto.NamedCurveTest" time="0.023"/>
+  <testcase name="valuesFromGenerator" classname="org.ebayopensource.fido.uaf.crypto.NamedCurveTest" time="0.034"/>
+  <testcase name="signatureAndPubKey" classname="org.ebayopensource.fido.uaf.crypto.NamedCurveTest" time="0.024"/>
+  <testcase name="valuesFromExample" classname="org.ebayopensource.fido.uaf.crypto.NamedCurveTest" time="0.015"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.crypto.KeyCodec getKeyAsRawBytes
+INFO: Raw key length:65
+Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.crypto.NamedCurveTest valuesFromGenerator
+INFO: dataForSigning length : 4
+Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.crypto.NamedCurveTest valuesFromGenerator
+INFO: pubByte : 91 privByte : 150
+Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.crypto.NamedCurveTest valuesFromGenerator
+INFO: Signature : [Ljava.math.BigInteger;@25d448d1
+Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.crypto.NamedCurveTest valuesFromGenerator
+INFO: signatureGenAsn1 length : 71 = MEUCIF9L3SsnwRDNiM6FF3Y6gZZPKjx4mpK9KN4KyRlB3yYYAiEAgcjt-DVyPk6zdfpOv16QvEE-gKsi0vCFYBa5eF7GNtk
+Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.crypto.NamedCurveTest valuesFromGenerator
+INFO: s length : 33 r length : 32
+Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.crypto.NamedCurveTest valuesFromGenerator
+INFO: Signature length : 64
+Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.crypto.KeyCodec getKeyAsRawBytes
+INFO: Raw key length:65
+Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.crypto.KeyCodec getKeyAsRawBytes
+INFO: Raw key length:65
+Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.crypto.NamedCurveTest valuesFromExample
+INFO: asn1EncodedSignature=MEYCIQDiyq8Cm0_QjHyoQW5e4OWLpWzINO4AGO2Iw7VRlsDqxgIhAN8TvEpqaIjATr2FG4-8vp2LaKGodBi3DEnonZJlIoKF
+Sep 03, 2017 11:16:49 AM org.ebayopensource.fido.uaf.crypto.KeyCodec getKeyAsRawBytes
+INFO: Raw key length:65
+]]></system-err>
+</testsuite>

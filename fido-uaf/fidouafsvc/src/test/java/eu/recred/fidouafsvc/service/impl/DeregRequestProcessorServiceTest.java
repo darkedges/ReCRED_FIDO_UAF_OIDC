@@ -1,21 +1,22 @@
 package eu.recred.fidouafsvc.service.impl;
 
-import eu.recred.fidouafsvc.dao.RegistrationRecordDao;
-import eu.recred.fidouafsvc.storage.AuthenticatorRecord;
-import eu.recred.fidouafsvc.storage.RegistrationRecord;
+import static org.junit.Assert.assertEquals;
+
 import org.junit.Before;
-import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
 
-import static org.junit.Assert.assertEquals;
+import eu.recred.fidouafsvc.Application;
+import eu.recred.fidouafsvc.dao.RegistrationRecordDao;
+import eu.recred.fidouafsvc.storage.AuthenticatorRecord;
+import eu.recred.fidouafsvc.storage.RegistrationRecord;
 
 //@Ignore
-@RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = {"/fidouafsvc-servlet.xml"})
+@RunWith(SpringRunner.class)
+@SpringBootTest(classes = Application.class)
 public class DeregRequestProcessorServiceTest {
 
     @Autowired
