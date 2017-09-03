@@ -17,6 +17,7 @@
 		<module>fido-uaf-core-msg</module>
 		<module>fido-uaf-core-tlv</module>
 		<module>fido-uaf-core-crypto</module>
+		<module>fidouafclientjava</module>
 	</modules>
 	<properties>
 		<java.version>1.8</java.version>
